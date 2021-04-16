@@ -1,4 +1,4 @@
-FROM node:chrisajames/node-alpine-git
+FROM node:14.14.0-alpine
 WORKDIR '/app'
 COPY ./package.json ./
 RUN npm install
